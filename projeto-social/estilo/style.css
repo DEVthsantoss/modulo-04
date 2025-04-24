@@ -42,7 +42,7 @@ main{
     text-align: right;
 }
 
-#redes-sociais a >img{
+#redes-sociais img{
     width: 50px;
     margin: 10px;
     border-radius: 50%;
@@ -51,7 +51,7 @@ main{
 }
 
 #redes-sociais img:hover{
-    transition: transform 0.3s;
+    transition: 0.3s;
     transform: translate(-3px, -3px);
     border: 2px solid #ffffffb0;
 }
