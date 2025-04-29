@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form meu</title>
+</head>
+<body>
+    <form action="cadastro.js" autocomplete="on">
+        <fieldset>
+            <legend>meus dados</legend>
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="Nome" id="inome" required autocomplete="name" minlength="5" maxlength="15" placeholder="5 a 15 caracteres">
+            </p>
+            <p>
+                <label for="iemail">email</label>
+                <input type="email" name="email" id="iemail" required autocomplete="email">
+                
+            </p>
+            <p>
+                <label for="itel">telefone</label>
+                <input type="tel" name="tel" id="itel" required placeholder="(xx)xxxxx-xxxx" autocomplete="tel">
+            </p>
+            <p>
+                <label for="iend">endereço</label>
+                <input type="text" name="end" id="iend" required placeholder="rua, bairro, cidade, estado" autocomplete="address-line1">
+        </fieldset>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
