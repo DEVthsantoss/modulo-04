@@ -9,11 +9,26 @@
     <h1>escolhas</h1>
     <form action="cadrasto.js" method="get"> 
         <fieldset>
+            <legend>Qual gênero?</legend>
+            <p><label for="imas"><input type="radio" name="sexo" id="imas" value="Masculino">Masculino:</label></p>
+            <p><label for="ifem"><input type="radio" name="sexo" id="ifem" value="Feminino">Feminino:</label></p>
+        </fieldset>
+        <fieldset>
             <legend>esportes favorito</legend>
             <p>
-                <label for="ifut"><input type="checkbox" name="fut" id="ifut"> futebol</label>
+                <label for="ifut"><input type="checkbox" name="fut" id="ifut" value="futebol"> futebol</label>
+            </p>
+            <p>
+                <label for="ivolei"><input type="checkbox" name="volei" id="ivolei" value="volei"> volei</label>
+            </p>
+            <p>
+                <label for="isurf"><input type="checkbox" name="surf" id="isurf" value="surf"> surf</label>
             </p>
         </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
     </form>
 </body>
 </html>
