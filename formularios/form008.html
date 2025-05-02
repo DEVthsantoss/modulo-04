@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>somas</h1>
+    <form action="cadastro.js" method="get">
+        <p>
+            <label for="1n1">numero 1:</label>
+            <input type="number" name="n1" id="1n1" required min="0" max="200" oninput="isoma.innerHTML = Number{1n1.value} + Number{1n2.value}">
+        </p>
+        
+        <p>
+            <label for="1n2">numero 2:</label>
+            <input type="number" name="n2" id="1n2" required min="0" max="200" oninput="isoma.innerHTML = Number{1n1.value} + Number{1n2.value}">
+        </p>
+
+        <p>
+            <label for="isoma">soma</label>
+            <output id="isoma"></output>
+        </p>
+    </form>
+</body>
+</html>

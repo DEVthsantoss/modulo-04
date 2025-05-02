@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>exemplo de formulario</h1>
+    <form action="cadrastro.js" method="get">
+        <p>
+            <label for="iest">estado:</label>
+            <select name="estado" id="iest">
+
+                <option value="RN">Rio Grande Do Norte</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="prof" id="iprof" list="isprof">
+            <datalist id="isprof">
+                <option>Programador</option>
+                <option>Analista</option>
+                <option>Gerente</option>
+                <option>Arquiteto</option>
+                <option>Desenvolvedor</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">mensagem</label>
+            <textarea name="msg" id="imsg" cols="30" rows="10">
+                
+            </textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
