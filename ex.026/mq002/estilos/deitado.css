@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
-body {
-    background-color: #da0000;
-    font-family: Arial, sans-serif;
+html, body {
+   background: url(../imagens/cev-portrait.jpg)
+    no-repeat center bottom;  
+    height: 100vh;
+    background-size: cover;  
 }
