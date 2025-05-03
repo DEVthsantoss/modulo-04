@@ -8,8 +8,10 @@
 }
 
 html, body {
-   background-color: blueviolet;
-
+   background-color: #223eff;
+    width: 100vh;
+    height: 100vh;
+    background-size: contain;
 }
 
 h1{
